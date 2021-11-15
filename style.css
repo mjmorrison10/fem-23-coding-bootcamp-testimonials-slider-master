@@ -202,10 +202,12 @@ main {
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 footer {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  /* flex: 1; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  position: absolute;
+  bottom: 0;
 }
 
 .attribution {
@@ -251,5 +253,9 @@ footer {
 
   footer {
     margin-top: 1rem;
+    position: inherit;
+
   }
 }
+
+
