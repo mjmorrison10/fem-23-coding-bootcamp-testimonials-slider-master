@@ -221,7 +221,7 @@ footer {
 /* Media Queries ////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .slide {
     flex-direction: column-reverse;
     margin-top: 5rem;
@@ -239,6 +239,7 @@ footer {
   }
   .card {
     text-align: center;
+    align-items: center;
     width: 90vw;
     margin: 0 auto;
   }
@@ -249,6 +250,6 @@ footer {
   }
 
   footer {
-      margin-top: 1rem;
+    margin-top: 1rem;
   }
 }
